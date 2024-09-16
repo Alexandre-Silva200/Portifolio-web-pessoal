@@ -51,7 +51,6 @@ li a i{
 header{
     width: 100%;
     height: auto;
-    box-shodow: 2px 5px 5px #ffffff36
 }
 
 .flex{
@@ -87,6 +86,73 @@ header .inter-face .flex ul li a{
 button{
     background-color: rgba(152, 243, 6, 0.795);
     padding: 5px;
-    width: 5px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-size: 1.1rem;
+    box-shadow: 5px 5px 5px red;
+    transition: 1s all ease;
+    cursor: pointer;
 }
 
+button:hover{
+    font-size: 1.3rem;
+    width: 105px;
+}
+
+/*section inicio*/
+
+section{
+    max-width: 1600px;
+    padding: 80px 5%;
+    box-shadow: 3px 3px 5px red;
+}
+
+.txt-inicio{
+    background-color: transparent;
+    width: 60%;
+    height: 300px;
+}
+
+.txt-inicio h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.txt-inicio span{
+    color: rgba(152, 243, 6, 0.795);
+}
+
+.txt-inicio p{
+    margin-left: 5px;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.txt-inicio .btn-02{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.img-inicio img{
+    width: 15rem;
+    border-radius: 10px;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    box-shadow: 3px 3px 3px rgb(37, 226, 37);
+}
+
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+
+    100%{
+        top: 30px;
+    }
+}
