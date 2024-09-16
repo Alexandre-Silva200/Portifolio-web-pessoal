@@ -16,3 +16,77 @@ body{
     max-width: 1600px;
     padding: 10px 4%;
 }
+
+span{
+    color: rgb(37, 226, 37);
+}
+
+.rede-sociais ul{
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+}
+
+.rede-sociais li{
+    display: flex;
+    text-transform: none;
+    margin-left: 10px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+}
+
+li a{
+    margin-top: 22%;
+    margin-left: 50%;
+    transform: translate(50%, 50%);
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+li a i{
+    font-weight: 600;
+}
+
+/*cabeçalho*/
+header{
+    width: 100%;
+    height: auto;
+    box-shodow: 2px 5px 5px #ffffff36
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color: rgba(152,243, 6, 0.795);
+    filter: drop-shodow(2px 1px 1px rgba(152, 243, 6, 0.795));
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+header .inter-face .flex ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 10px;
+}
+
+header .inter-face .flex ul li{
+    margin-left: 50px;
+    text-transform: none;
+}
+
+header .inter-face .flex ul li a{
+    color: rgba(152, 243, 6, 0.795);
+    overflow: none;
+    font-size: 1.3rem;
+}
+
+button{
+    background-color: rgba(152, 243, 6, 0.795);
+    padding: 5px;
+    width: 5px;
+}
+
